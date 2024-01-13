@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter, sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+body{
+    background-color: hsl(230, 17%, 14%);
+}
+
+.light-bg {
+    height: 200px;
+    width: 100%;
+    background-color: hsl(232, 19%, 15%);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 40px 0px;
+    position: relative;
+    z-index: 2;
+}
+
+.heading{
+    max-width: 900px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-stats{
+    display: flex;
+    max-width: 900px;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.social-stats > div{
+    flex: 1;
+}
+
+.overview-header{
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.overview-content {
+    display: flex;
+    max-width: 900px;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+.overview{
+    width: 25%;
+    flex: 1;
+    background-color: hsl(228, 28%, 20%);
+    padding: 20px;
+}
+
+h4 {
+    color: hsl(228, 28%, 20%);
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+
+.fb {
+    background-color: hsl(228, 28%, 20%);
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #1F3ADB;
+
+}
+
+.twitter {
+    background-color: hsl(228, 28%, 20%);
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid hsl(203, 89%, 53%);
+}
+
+span {
+    color: hsl(163, 72%, 41%);
+}
+
+
+.yt {
+    background-color: hsl(228, 28%, 20%);
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid hsl(348, 97%, 39%);
+}
+
+.ig {
+    background-color: hsl(228, 28%, 20%);
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) 1;
+}
+
+
+.yt span {
+    color: hsl(356, 69%, 56%);
+}
